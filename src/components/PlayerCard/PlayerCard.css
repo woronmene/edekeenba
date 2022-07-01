@@ -1,0 +1,83 @@
+.playerCard {
+  width: 160px;
+  /* height: 150px; */
+  /* width: 100%; */
+  aspect-ratio: 1;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+
+  /* background-image: url("../../../public/lebronImg.png");
+  background-position: center;
+  background-size: cover; */
+  cursor: pointer;
+}
+
+.badge {
+  height: 40px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(18px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pinIcon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 25px;
+  cursor: pointer;
+}
+
+.optionsIcon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 10px;
+  cursor: pointer;
+}
+
+.badgeWrapper {
+  width: 95%;
+  height: 80%;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+.right {
+  text-align: left;
+}
+
+.productName {
+  font-size: 13px;
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+}
+
+.position {
+  font-size: 10px;
+  margin-top: -3px;
+}
+
+.stockCount {
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #171717;
+  color: #32a071;
+}
+.boostIcon {
+  width: 25px;
+}
+.left {
+  /* border: 1px solid red; */
+}
+.whiteChevron {
+  width: 5px;
+}

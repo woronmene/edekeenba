@@ -1,0 +1,97 @@
+.bidCard {
+  width: 90%;
+  /* height: 80px; */
+  margin: 10px auto;
+  padding: 2px;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.img {
+  width: 60px;
+  aspect-ratio: 1;
+  /* border: 1px solid red; */
+  margin-right: 10px;
+  /* background-image: url("../public/bidshoe.png");
+  background-size: cover;
+
+  background-position: center; */
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 12px;
+  /* border: 1px solid red; */
+}
+.desc {
+  font-size: 10px;
+}
+
+.currentBid {
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .desc {
+    font-size: 8px;
+  }
+
+  .currentBid {
+    font-size: 6px;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .bidButton {
+    /* padding: 5px 13px; */
+    width: 50px;
+    height: 20px;
+    /* background-color: #8d71ff; */
+    font-size: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+}
+.right {
+  margin-right: 10px;
+  text-align: right;
+}
+
+.bidButton {
+  width: 95px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8d71ff;
+  font-size: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
